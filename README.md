@@ -1,5 +1,5 @@
 # 🍽️ Zomato Restaurant Chatbot
-![Zomato Chatbot Banner](ba920448-07c2-4403-978e-fa24cc6ae2c4.png)
+![Zomato Chatbot Banner]([ba920448-07c2-4403-978e-fa24cc6ae2c4.png])
 
 A Streamlit-powered chatbot app that answers user queries about restaurant menus, dishes, dietary preferences, prices, and locations using Retrieval-Augmented Generation (RAG) and structured menu data.
 
