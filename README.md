@@ -5,20 +5,20 @@ A Streamlit-powered chatbot app that answers user queries about restaurant menus
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 Find restaurant addresses with Google Maps link  
-- ☎️ Get contact information  
-- ⏰ Show operating hours of restaurants  
-- 🥗 Filter dishes by dietary preferences (vegan, gluten-free, Jain, etc.)  
-- 🧂 Get info on spice levels, allergens, and pizza base  
-- 🍕 Check dish availability and compare prices  
-- 🥦 Veg/Non-Veg classification with confidence scores  
-- 🧠 Handles out-of-scope or unclear questions intelligently 
+- Find restaurant addresses with Google Maps link  
+- Get contact information  
+- Show operating hours of restaurants  
+- Filter dishes by dietary preferences (vegan, gluten-free, Jain, etc.)  
+- Get info on spice levels, allergens, and pizza base  
+- Check dish availability and compare prices  
+- Veg/Non-Veg classification with confidence scores  
+- Handles out-of-scope or unclear questions intelligently 
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Create a Virtual Environment (Recommended)
 
@@ -34,7 +34,7 @@ source chatbot_env/bin/activate  # For Windows: chatbot_env\Scripts\activate
 # Install Required Packages
 - pip install -r requirements.txt
 
-# 🔧 Requirements
+#  Requirements
 - Python 3.8+
 - Streamlit
 - Pandas
