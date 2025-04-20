@@ -1,0 +1,102 @@
+{
+    "dietary_categories": {
+        "vegetarian": {
+            "keywords": ["veg", "vegetarian", "paneer", "pure veg"],
+            "dishes": [
+                "Chilli Potato", "Spring Roll", "Veg Manchurian", "Corn Sandwich",
+                "Paneer Sandwich", "Veg Cheese Paneer Sandwich", "Veg Momos",
+                "Margherita Pizza", "Onion Pizza", "Paneer Pizza", "Garlic Bread",
+                "Pav Bhaji", "Manchurian", "Veg Kebab", "Veg Biryani",
+                "Veg Fried Rice", "Veg Chowmein", "White Sauce Pasta",
+                "Red Sauce Pasta", "Italian White Pasta"
+            ],
+            "restrictions": ["no meat", "no egg", "no fish"],
+            "confidence_level": "high"
+        },
+        "vegan": {
+            "keywords": ["vegan", "plant-based", "dairy-free"],
+            "dishes": [
+                "Spring Roll", "Corn Sandwich", "Vegetable Manchurian",
+                "Chilli Potato", "Garlic Bread", "Olive Special Pizza",
+                "Tomato Pizza", "Corn Pizza", "Capsicum Pizza",
+                "Mushroom Pizza", "Tropical Veggie Pizza"
+            ],
+            "restrictions": ["no dairy", "no cheese", "no paneer", "no ghee"],
+            "confidence_level": "medium"
+        },
+        "jain": {
+            "keywords": ["jain", "no onion", "no garlic"],
+            "dishes": [
+                "Plain Pizza", "White Sauce Pasta", "Corn Sandwich",
+                "Spring Roll", "Veg Manchurian"
+            ],
+            "restrictions": ["no onion", "no garlic", "no potato"],
+            "confidence_level": "medium"
+        },
+        "pizza_base": {
+            "thin_crust": [
+                "Margherita Pizza", "Classic Cheese Pizza",
+                "Cheese and Tomato Pizza", "Tropical Veggie Pizza"
+            ],
+            "thick_crust": [
+                "Paneer Tikka Pizza", "Paneer Makhani Pizza",
+                "Point Special Spice Pizza", "Olive Special Pizza"
+            ]
+        },
+        "spice_level": {
+            "low_spice": [
+                "White Sauce Pasta", "Italian White Pasta",
+                "Cheese Pizza", "Margherita Pizza",
+                "Veg Sandwich", "Spring Roll"
+            ],
+            "medium_spice": [
+                "Veg Manchurian", "Paneer Tikka Pizza",
+                "Veg Biryani", "Veg Fried Rice"
+            ],
+            "high_spice": [
+                "Spicy Kadhai Paneer Pizza", "Chilli Paneer",
+                "Spicy Pizza", "Point Special Spice Pizza"
+            ]
+        },
+        "combos": {
+            "single_serve": [
+                "Veg Sandwich Combo", "Pizza Pasta Combo",
+                "Chinese Combo", "Spring Roll Combo"
+            ],
+            "family_pack": [
+                "Double Topping Combo [Serves 4]",
+                "Classic Cheese Pizza Combo [Serves 3]",
+                "Pizza Combo [Pack of 8]"
+            ]
+        }
+    },
+    "allergens": {
+        "dairy": [
+            "Cheese Pizza", "Paneer Roll", "White Sauce Pasta",
+            "Cheese and Tomato Pizza", "Paneer Tikka Pizza"
+        ],
+        "gluten": [
+            "Pizza", "Pasta", "Bread", "Noodles", "Paratha",
+            "Sandwich", "Spring Roll", "Momos"
+        ],
+        "soy": [
+            "Manchurian", "Chowmein", "Fried Rice",
+            "Chinese Combo", "Soy Sauce based dishes"
+        ]
+    },
+    "preparation_style": {
+        "fried": [
+            "Spring Roll", "Chilli Potato", "Fried Rice",
+            "Manchurian Dry", "Veg Kabab"
+        ],
+        "baked": [
+            "All Pizzas", "Garlic Bread"
+        ],
+        "steamed": [
+            "Veg Momos", "Plain Rice", "Veg Biryani"
+        ],
+        "grilled": [
+            "Veg Kabab", "Paneer Tikka"
+        ]
+    }
+}
